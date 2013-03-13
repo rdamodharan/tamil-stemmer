@@ -1,14 +1,6 @@
-
-
 /*
 * Affix stripping stemming algorithm for Tamil
 * By Damodharan Rajalingam
-* This snowball code cannot be compiled directly with snowball compiler
-*
-* The file needs to be processed using C preprocessor first
-* cpp -P -C -o stem_Unicode.sbl stem_Unicode.sblt
-* cpp -P -C -D DEBUG -o stem_Unicode.sbl stem_Unicode.sblt (with debug on)
-* Then compile stem_Unicode.sbl with the snowball compiler
 */
 
 stringescapes {}
