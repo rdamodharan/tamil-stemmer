@@ -7,7 +7,9 @@ Tamil language. The stemmer is implemented using Snowball language
 
 ---
 
-# Building snowball with Tamil support (GNU/Linux)
+# Building snowball with Tamil support in GNU/Linux
+
+## From SVN
 
 Snowball library can be built with tamil support using the patch in this
 repository. The patch was taken against snowball svn @ revision 577.
@@ -35,4 +37,24 @@ $ ./stemwords -l ta
 கண்கள்
 கண்
 ^C
+```
+
+## From the tar file
+
+The repository includes a snowball source tarball already patched with
+tamil support.
+
+```bash
+$ mkdir tamil-stemmer-build
+$ cd tamil-stemmer-build
+
+$ git clone https://github.com/rdamodharan/tamil-stemmer.git
+
+$ tar -zxf tamil-stemmer/snowball-with-tamil.tgz
+$ cd snowball-with-tamil
+$ make
+
+$ ./stemwords -l ta
+கண்கள்
+கண்
 ```
