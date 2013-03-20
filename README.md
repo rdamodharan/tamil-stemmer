@@ -12,7 +12,7 @@ Tamil language. The stemmer is implemented using Snowball language
 Snowball library can be built with tamil support using the patch in this
 repository. The patch was taken against snowball svn @ revision 577.
 
-    ```bash
+    !bash
     # Create a build directory
     $ mkdir tamil-stemmer-build
     $ cd tamil-stemmer-build
@@ -35,4 +35,3 @@ repository. The patch was taken against snowball svn @ revision 577.
     கண்கள்
     கண்
     ^C
-    ```
