@@ -37,6 +37,14 @@ $ ./stemwords -l ta
 கண்கள்
 கண்
 ^C
+
+# stemmer UI
+# this script assumes that stemwords executable is in current directory
+# if no arguments is passed. If stemwords executable is in different
+# location it needs to be passed as first argument
+# eg. ../tamil-stemmer/stemmer-ui.py /path/to/stemwords
+# NOTE: stemmer UI requires python 2.x and pygtk-2.0
+$ python ../tamil-stemmer/stemmer-ui.py
 ```
 
 ## From the tar file
@@ -57,4 +65,12 @@ $ make
 $ ./stemwords -l ta
 கண்கள்
 கண்
+
+# stemmer UI
+# this script assumes that stemwords executable is in current directory
+# if no arguments is passed. If stemwords executable is in different
+# location it needs to be passed as first argument
+# eg. ../tamil-stemmer/stemmer-ui.py /path/to/stemwords
+# NOTE: stemmer UI requires python 2.x and pygtk-2.0
+$ python ../tamil-stemmer/stemmer-ui.py
 ```
