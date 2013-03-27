@@ -74,3 +74,11 @@ $ ./stemwords -l ta
 # NOTE: stemmer UI requires python 2.x and pygtk-2.0
 $ python ../tamil-stemmer/stemmer-ui.py
 ```
+
+---
+
+# License
+
+This software is distributed under BSD-2-Clause license. Please refer to
+LICENSE.txt
+
