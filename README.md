@@ -5,6 +5,9 @@ This is an attempt to create a rule based affix stripping stemmer for
 Tamil language. The stemmer is implemented using Snowball language
 (http://snowball.tartarus.org/)
 
+Note that this is a stemmer and not a lemmatizer. The output need not be a
+dictionary word. 
+
 ---
 
 # Building snowball with Tamil support in GNU/Linux
