@@ -267,3 +267,6 @@ _Table 4 - Strength descrition statistics of some popular stemming algorithms fo
 
 # Q & A
 
+--
+
+# Slides can be found @ [http://tinyurl.com/tamil-stemmer-ti2013](http://tinyurl.com/tamil-stemmer-ti2013)
