@@ -170,10 +170,11 @@ Eg.
 # Snowball
 
 * String processing language for implementing stemming algorithms
+* Written by Martin Porter (Porter's stemming algorithm fame)
 * Outputs C or Java library
 * Can handle multiple character sets
 * libstemmer which is part of the package is used by many open source projects
-* Tamil stemming algorithm implementation available at [Tamil Stemmer](https://github.com/rdamodharan/tamil-stemmer)
+* Tamil stemming algorithm implementation available at [Tamil Stemmer - GitHub](https://github.com/rdamodharan/tamil-stemmer)
 
 ---
 
@@ -261,12 +262,20 @@ _Table 4 - Strength descrition statistics of some popular stemming algorithms fo
 
 ---
 
+# Limitations
+
+* Compound words not handled
+* Stems are not valid stems in many cases
+* Diglossia of language poses more challenges
+
+---
+
 # Demo
 
 ---
 
 # Q & A
 
---
+---
 
 # Slides can be found @ [http://tinyurl.com/tamil-stemmer-ti2013](http://tinyurl.com/tamil-stemmer-ti2013)
