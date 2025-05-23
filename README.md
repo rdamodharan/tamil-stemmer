@@ -1,4 +1,6 @@
 
+For more comprehensive documentation, please see the [documentation here](./docs/index.md).
+
 # An Affix Stripping Iterative Stemming Algorithm for Tamil
 
 This is an attempt to create a rule based affix stripping stemmer for
